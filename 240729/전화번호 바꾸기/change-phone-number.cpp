@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int a,b;
-    cin.get();
+    int a,b,c;
+    cin>>c;
     cin.get();
     cin>>a;
     cin.get();
