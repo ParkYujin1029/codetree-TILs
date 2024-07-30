@@ -1,10 +1,11 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main() {
     int n, m;
     cin >> n >> m;
-    int placed[n][n] = {0,};
+    vector<vector<int>> placed(n, vector<int>(n, 0));
     int x, y;
     for(int i=0; i<m; i++){
         cin >> x >> y;
