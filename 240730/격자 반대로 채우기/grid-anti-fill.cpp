@@ -10,7 +10,7 @@ int main() {
             if(i%2==1){
                 arr[j][i] = k;
             }else{
-                arr[3-j][i] = k;
+                arr[n-1-j][i] = k;
             }
             k++;
         }
