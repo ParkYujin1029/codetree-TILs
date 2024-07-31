@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int a, b, c;
     cin >> a >> b >> c;
-    int min=0;
+    int min=100;
     if(min>a){
         min = a;
     }if(min>b){
